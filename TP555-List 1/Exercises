@@ -25,4 +25,21 @@ Lista de Exercícios #1
    Para segmentar clientes em grupos distintos a implementação de um algorítimo de Aprendizado Não Supervisionado por Clusterização, onde as features de entrada serão utilizadas para segmentar novos clientes para os grupos que já estão pré definidos. Um exemplo de algorítmo que pode ser utilizando seria K-Means, onde com base nos grupos de clientes com perfil definido, pode-se treinar a rede para identificar novos clientes e agrupar conforme cada feature.
    
 8. Exercício
+   a.Alocação de recursos em redes móveis (e.g., LTE, 5G-NR, etc)
+   
+   b.Mitigação de colisões em redes sem-fio e móveis
+   
+   c.Projeto e otimização de esquemas de modulação e codificação
+   
+   d.Sensoriamento espctral
+   
+   e.Posicionamento e localização em ambientes indoor
+   
+   f.Roteamento de redes
+   
+   g.Detecção e estimação de canal em sistemas de transmissão ópticos
+   
+   h.Pré-distorção digital de não-linearidades de front-ends de RF
+   
+   i.Segurança e robustez em redes de comunicação
     
