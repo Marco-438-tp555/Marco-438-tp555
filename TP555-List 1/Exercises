@@ -26,6 +26,7 @@ Lista de Exercícios #1
    
 8. Exercício
    a.Alocação de recursos em redes móveis (e.g., LTE, 5G-NR, etc)
+   Esta tarefa pode ser executada por computador (Resource Allocation) - 
    
    b.Mitigação de colisões em redes sem-fio e móveis
    
@@ -34,12 +35,15 @@ Lista de Exercícios #1
    d.Sensoriamento espctral
    
    e.Posicionamento e localização em ambientes indoor
+   Esta tarefa pode ser executada por computador.
    
    f.Roteamento de redes
    
    g.Detecção e estimação de canal em sistemas de transmissão ópticos
+   Esta tarefa pode ser executada por computador (Signal Detection, Classification and Compression) - 
    
    h.Pré-distorção digital de não-linearidades de front-ends de RF
    
    i.Segurança e robustez em redes de comunicação
+   Esta tarefa pode ser executada por computador (Security and Robustness) - 
     
