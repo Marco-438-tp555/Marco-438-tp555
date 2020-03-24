@@ -26,23 +26,23 @@ Lista de Exercícios #1
    
 8. Exercício
    a.Alocação de recursos em redes móveis (e.g., LTE, 5G-NR, etc)
-   Esta tarefa pode ser executada por computador (Resource Allocation) - 
+   Esta tarefa pode ser executada por computador (Resource Allocation - Proactive resource management for LTE in unlicensed spectrum: a deep learning perspective) - 
    
    b.Mitigação de colisões em redes sem-fio e móveis
    
    c.Projeto e otimização de esquemas de modulação e codificação
-    Esta tarefa pode ser executada por computador (Channel Encoding and Decoding - 
+    Esta tarefa pode ser executada por computador (Channel Encoding and Decoding - On deep learning-based channel decoding)
    
    d.Sensoriamento espectral
    Esta tarefa pode ser executada por computador (Other Selected Topics - Deep learning for TDD and FDD massive MIMO: Mapping channels in space and frequency) - 
    
    e.Posicionamento e localização em ambientes indoor
-   Esta tarefa pode ser executada por computador (Position Sensing and Localization) - 
+   Esta tarefa pode ser executada por computador (Position Sensing and Localization - Improving indoor localization using convolutional neural networks on computationally restricted devices) - 
    
    f.Roteamento de redes
    
    g.Detecção e estimação de canal em sistemas de transmissão ópticos
-   Esta tarefa pode ser executada por computador (Signal Detection, Classification and Compression) - 
+   Esta tarefa pode ser executada por computador (Signal Detection, Classification and Compression - Low computationally complex recurrent neural network for high speed optical fiber transmission) - 
    
    h.Pré-distorção digital de não-linearidades de front-ends de RF
    Esta tarefa pode ser executada por computador (Resource Allocation - Transmit Power Control Using Deep Neural Network for Underlay Device-to-Device Communication)
