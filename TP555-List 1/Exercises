@@ -27,6 +27,11 @@ Lista de Exercícios #1
 8. Exercício
    a.Alocação de recursos em redes móveis (e.g., LTE, 5G-NR, etc)
    Esta tarefa pode ser executada por computador (Resource Allocation - Proactive resource management for LTE in unlicensed spectrum: a deep learning perspective) - 
+   Este é um problema de escasses de espectro de frequência. A abordagem principal é utilizar a banda de frequências não licenciada para alocação de canais de comunicação LTE usando small base stations (SBSs),
+   contudo este sistema deve coexistir com o sitema Wi-Fi já em operação. A solução proposta visa habilitar multiplas SBSs para uma seleção dinâminca de canal de comunicação (carrier aggregation).
+   Para esta tarefa, um modelo não cooperativo de jogo é formulado no qual as SBSs são modelados como agentes iguais para realizar a previsão de uma sequência de ações futuras para alcançar a coexsitencia pacífica entre 
+   os diversos sistemas que operam na mesma banda de frequência não licenciada ao longo do tempo. O algorítimo de aprendizado utilizado tende a alcançar um equilíbrio de Nash na convergência. Os resultados das simulações 
+   deste modelo com dados reais mostram uma maior eficiência que pode chegar até 28% sobre o modelo convencional.   
    
    b.Mitigação de colisões em redes sem-fio e móveis
    
