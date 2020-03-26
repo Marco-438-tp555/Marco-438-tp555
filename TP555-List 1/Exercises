@@ -36,7 +36,12 @@ Lista de Exercícios #1
    b.Mitigação de colisões em redes sem-fio e móveis
    
    c.Projeto e otimização de esquemas de modulação e codificação
-    Esta tarefa pode ser executada por computador (Channel Encoding and Decoding - On deep learning-based channel decoding)
+   Esta tarefa pode ser executada por computador (Channel Encoding and Decoding - On deep learning-based channel decoding)
+   Esta é uma tarefa para decoficação de códigos em rajada aleatórios utilizando redes neural, inteligência artificial. Mesmo se obter o máximo a posteriori  para BER em questão da performance com os formatos atuais, os códigos
+   podem ser de fácil entendimento  e as redes neurais são capazes de generalizar as palavras códigos nunca vistas antes durante o treinamento desta estrutura. Neste sentido, as redes neurais podem aprender formas de decodificar 
+   os algorítimos ao invés de somente fazer a classificação. 
+   Para esta tarefa, é introduzido o "erro normalizado de verificação métrica" (NVE - método para resolução do problema) com a finalidade de verificar o potencial e também a limitação das redes neurais com respeito a performance
+   complexidade da rede.   
    
    d.Sensoriamento espectral
    Esta tarefa pode ser executada por computador (Other Selected Topics - Deep learning for TDD and FDD massive MIMO: Mapping channels in space and frequency) - 
