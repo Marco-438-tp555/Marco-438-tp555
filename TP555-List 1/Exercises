@@ -44,16 +44,16 @@ Lista de Exercícios #1
    complexidade da rede.   
    
    d.Sensoriamento espectral
-  Esta tarefa pode ser executada por computador (Other Selected Topics - Deep learning for TDD and FDD massive MIMO: Mapping channels in space and frequency) - 
-  Esta é uma tarefa para tentar simplificar o complexo sistema de mapeamento de canais (bandas de frequência) para comunicação móvel, principalmente quando estamos falando de altas taxas de dados, que é o caso dos sistemas que 
-  utilizam as técnica de MIMO.
-  A idéia para esta tarefa é otimizar o mapeamento em espaço e frequência que é feito a cada vez que um dispositivo móvel tenta acessar uma rede e/ou uma rede via outra rede, como no caso do hoaming service onde um móvel irá acessar
-  um conjunto de antenas que por sua vez deverá localizar a rede solicitada acessando um outro conjunto de antenas, ou até mesmo um ajuste de banda e frequência de operação para ajuste das taxas de dados e para estes dois casos 
-  um mapeamento de up e downstream deverão ser feitos.
-  A tarefa é executada da seguinte forma,    
-   
-   
-   
+   Esta tarefa pode ser executada por computador (Other Selected Topics - Deep learning for TDD and FDD massive MIMO: Mapping channels in space and frequency) - 
+   Esta é uma tarefa para tentar simplificar o complexo sistema de mapeamento de canais (bandas de frequência) para comunicação móvel, principalmente quando estamos falando de altas taxas de dados, que é o caso dos sistemas que 
+   utilizam as técnica de MIMO.
+   A idéia para esta tarefa é otimizar o mapeamento em espaço e frequência que é feito a cada vez que um dispositivo móvel tenta acessar uma rede e/ou uma rede via outra rede, como no caso do hoaming service onde um móvel irá acessar
+   um conjunto de antenas que por sua vez deverá localizar a rede solicitada acessando um outro conjunto de antenas, ou até mesmo um ajuste de banda e frequência de operação para ajuste das taxas de dados e para estes dois casos 
+   um mapeamento de up e downstream deverão ser feitos.
+   A tarefa é executada, ao passo que o mapeamento de canal para canal é provado e é uma condição desconhencida e muito difícil de se caracterizar analiticamente em sistemas MIMO, consiste na proposta da capacidade de aprendizado
+   de redes neurais (deep learning) que possam executar essa função de mapeamento dos canais no espectro de frequências. O estudo com sistema MIMO de 64 antenas mostra que a aquisição por somente 4 a 8 antenas pode ser mapeada com 
+   eficiência dentre o array de 64, mesmo que este array completo tenha diferentes bandas de frequência. Simulações dos traçados 3D mostram que taxas de transferência de dados consideradas próximas do ideal (comparadas com o limite
+   superiro considerado como perfeito). Este estudo mostra que esta solução reduz a sobrecarga de treinamento e feedback em mmWave e sistemas MIMO devido a poderosa capacidade de aprendizagem das redes neurais.   
    e.Posicionamento e localização em ambientes indoor
    Esta tarefa pode ser executada por computador (Position Sensing and Localization - Improving indoor localization using convolutional neural networks on computationally restricted devices) - 
    
@@ -61,6 +61,12 @@ Lista de Exercícios #1
    
    g.Detecção e estimação de canal em sistemas de transmissão ópticos
    Esta tarefa pode ser executada por computador (Signal Detection, Classification and Compression - Low computationally complex recurrent neural network for high speed optical fiber transmission) - 
+   Com a crescente demanda por maior velocidade de tráfego de dados aumentando consideravelmente nos ultimos anos, os dispositivos VCSEL (Laser de superfície de cavidade vertical) estão evoluindo para operação em 100Gbps, com isso a 
+   intensidade de ruído (relação Signal/Noise ou BER) se torma mais signigicativa e os equalizadores convencionais nao possuem eficiência para garantir a melhor Noise Figure. Outro agravante é que os dados trafegando em fibras ópticas também
+   sofre interferência inter simbólica (ISI) e resposta não linear do canal, o que torna o processo converncional de equalização ainda mais complexo.
+   Algumas aboradagens recentes e anteriores a este estudo já realizaram utilização de redes neurais para realizar a equalização dos sinais ópticos porém desprezando a complexidade computacional envolvida.
+   A idéia para esta tarefa foi projetar uma Rede Neural Recorrente (RNN em inglês) com base no equalizador, onde uma interconexão óptica VCSEL-MMF com modulação PAM-4 foi estabelecida. Uma melhoria no desmpenho da BER em relação aos
+   equalizadores baseando em rede neural artificial (ANN em inglês). Uma variação deste modelo é proposta também, Half-RNN, cuja complexidade de implementação e até 70% menor que a ANN e com performance de BER similar.
    
    h.Pré-distorção digital de não-linearidades de front-ends de RF
    Esta tarefa pode ser executada por computador (Resource Allocation - Transmit Power Control Using Deep Neural Network for Underlay Device-to-Device Communication)
