@@ -44,7 +44,15 @@ Lista de Exercícios #1
    complexidade da rede.   
    
    d.Sensoriamento espectral
-   Esta tarefa pode ser executada por computador (Other Selected Topics - Deep learning for TDD and FDD massive MIMO: Mapping channels in space and frequency) - 
+  Esta tarefa pode ser executada por computador (Other Selected Topics - Deep learning for TDD and FDD massive MIMO: Mapping channels in space and frequency) - 
+  Esta é uma tarefa para tentar simplificar o complexo sistema de mapeamento de canais (bandas de frequência) para comunicação móvel, principalmente quando estamos falando de altas taxas de dados, que é o caso dos sistemas que 
+  utilizam as técnica de MIMO.
+  A idéia para esta tarefa é otimizar o mapeamento em espaço e frequência que é feito a cada vez que um dispositivo móvel tenta acessar uma rede e/ou uma rede via outra rede, como no caso do hoaming service onde um móvel irá acessar
+  um conjunto de antenas que por sua vez deverá localizar a rede solicitada acessando um outro conjunto de antenas, ou até mesmo um ajuste de banda e frequência de operação para ajuste das taxas de dados e para estes dois casos 
+  um mapeamento de up e downstream deverão ser feitos.
+  A tarefa é executada da seguinte forma,    
+   
+   
    
    e.Posicionamento e localização em ambientes indoor
    Esta tarefa pode ser executada por computador (Position Sensing and Localization - Improving indoor localization using convolutional neural networks on computationally restricted devices) - 
