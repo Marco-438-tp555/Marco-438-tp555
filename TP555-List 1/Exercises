@@ -33,7 +33,8 @@ Lista de Exercícios #1
    os diversos sistemas que operam na mesma banda de frequência não licenciada ao longo do tempo. O algorítimo de aprendizado utilizado tende a alcançar um equilíbrio de Nash na convergência. Os resultados das simulações 
    deste modelo com dados reais mostram uma maior eficiência que pode chegar até 28% sobre o modelo convencional.   
    
-   b.Mitigação de colisões em redes sem-fio e móveis (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7458837)
+   b.Mitigação de colisões em redes sem-fio e móveis 
+   Esta tarefa pode ser executada por computador (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7458837)
    
    c.Projeto e otimização de esquemas de modulação e codificação
    Esta tarefa pode ser executada por computador (Channel Encoding and Decoding - On deep learning-based channel decoding)
@@ -57,7 +58,8 @@ Lista de Exercícios #1
    e.Posicionamento e localização em ambientes indoor
    Esta tarefa pode ser executada por computador (Position Sensing and Localization - Improving indoor localization using convolutional neural networks on computationally restricted devices) - 
    
-   f.Roteamento de redes (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7792369)
+   f.Roteamento de redes 
+   Esta tarefa pode ser executada por computador (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7792369)
    
    g.Detecção e estimação de canal em sistemas de transmissão ópticos
    Esta tarefa pode ser executada por computador (Signal Detection, Classification and Compression - Low computationally complex recurrent neural network for high speed optical fiber transmission) - 
@@ -78,4 +80,5 @@ Lista de Exercícios #1
    
    i.Segurança e robustez em redes de comunicação
    Esta tarefa pode ser executada por computador (Security and Robustness - Deep Q-Learning for self-organizing networks fault management and radio performance improvement) - 
-   
+   O objetivo deste estudo é propor um algorítimo utilizando deep learning para automatizar o gerenciamento de falhas em uma rede de telefonia móvel para tentar contornar as deficiências das redes sem fio. O algorítimo permite que o cluster da rede
+   móvel se recupere permitindo que a rede neural aprenda como melhorar o sinal do downlink para altas taxas de interferência de ruído através da exploração de várias ações corretivas.                                                                           
