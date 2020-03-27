@@ -70,6 +70,11 @@ Lista de Exercícios #1
    
    h.Pré-distorção digital de não-linearidades de front-ends de RF
    Esta tarefa pode ser executada por computador (Resource Allocation - Transmit Power Control Using Deep Neural Network for Underlay Device-to-Device Communication)
+   Esta é uma tarefa que tem como objetivo criar uma estratégia para controle de potência usando deep neural network (DNN). Esta é um proposta subjacente dispositivo a dispositivo onde o equipamento de usúário ou Base station (BS) compartilha 
+   recursos de rádio com o equipamento celular do usuário ou mobile. Embora o treinamento de uma DNN pode levar algum tempo, este tempo aida é adquado dado que uma DNN treinada pode ser usada com baixo tempo de processamento. 
+   Para este estudo é proposto um modelo de controle de potência de transmissão com base em DNN no qual a eficiência espectal da Base station é melhorada enquanto quanto há limitação da interferência causada. Através de simulações computacionais, 
+   a performance do esquema proposto pode atingir uma alta eficiência espectral da Base Station enquanto há uma regulação da interferência causada para o mobile, e todo este processo exige baixo tempo de processamento computacional comparado com 
+   os esquemas de equalização e pré distorção convencionais.   
    
    i.Segurança e robustez em redes de comunicação
    Esta tarefa pode ser executada por computador (Security and Robustness - Deep Q-Learning for self-organizing networks fault management and radio performance improvement) - 
