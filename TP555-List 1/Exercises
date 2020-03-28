@@ -73,8 +73,13 @@ Lista de Exercícios #1
    que a classificação do canal NLoS usando dados brutos do CIR supera as abordagens existentes baseadas nas características dos sinais de entrada. Também é demonstrado que a predição do canal NLoS e as variações das informações de erro que
    são usadas em combinação com algorítmos de estimativa de localização de mínimos quadrados e ponderados trazem uma melhora significativa no desempenho da tarefa de localização em ambientes indoor para um dispositivo móvel. Como conclusão
    deste estudo, uma análise do desempenho computacional de máquina foi feito e indica que um processamento distribuído é indicado quando houver restrição de recursos de máquina (processador).   
+   
    f.Roteamento de redes 
-   Esta tarefa pode ser executada por computador (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7792369)
+   Esta tarefa pode ser executada por computador (https://ieeexplore.ieee.org/document/7791218)
+   Os estudos atuais e recentes avançoes nos protocolos de roteamento de redes wireless usando técnicas de machine learning tem ajudado a resolver o problema de gargalo nas conexões de rede, onde inúmeras soluções tem sido apontadas para 
+   tentar minimizar a utilização de recusros nas redes wireless e com isso prolongar sua vida útil.
+   Este estudo apresenta um protocolo de agrupamento baseado na atribuição eficiente de vetores de suporte aos sensores (nós da rede) mais próximos equilibrando desta forma as conexões no agrupamento dos nós de rede.
+   Este modelo foi comparado com o protocolo LEACH (low energy adaptative clustering hierarchy) mostrando uma melhor utilização dos recursos no contexto das redes wireless.   
    
    g.Detecção e estimação de canal em sistemas de transmissão ópticos
    Esta tarefa pode ser executada por computador (Signal Detection, Classification and Compression - Low computationally complex recurrent neural network for high speed optical fiber transmission) - 
