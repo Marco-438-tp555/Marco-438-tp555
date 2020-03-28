@@ -30,7 +30,7 @@ Lista de Exercícios #1
    Este é um problema de escasses de espectro de frequência. A abordagem principal é utilizar a banda de frequências não licenciada para alocação de canais de comunicação LTE usando small base stations (SBSs),
    contudo este sistema deve coexistir com o sitema Wi-Fi já em operação. A solução proposta visa habilitar multiplas SBSs para uma seleção dinâminca de canal de comunicação (carrier aggregation).
    Para esta tarefa, um modelo não cooperativo de jogo é formulado no qual as SBSs são modelados como agentes iguais para realizar a previsão de uma sequência de ações futuras para alcançar a coexsitencia pacífica entre 
-   os diversos sistemas que operam na mesma banda de frequência não licenciada ao longo do tempo. O algorítimo de aprendizado utilizado tende a alcançar um equilíbrio de Nash na convergência. Os resultados das simulações 
+   os diversos sistemas que operam na mesma banda de frequência não licenciada ao longo do tempo. O algorítmo de aprendizado utilizado tende a alcançar um equilíbrio de Nash na convergência. Os resultados das simulações 
    deste modelo com dados reais mostram uma maior eficiência que pode chegar até 28% sobre o modelo convencional.   
    
    b.Mitigação de colisões em redes sem-fio e móveis 
@@ -40,7 +40,7 @@ Lista de Exercícios #1
    Esta tarefa pode ser executada por computador (Channel Encoding and Decoding - On deep learning-based channel decoding)
    Esta é uma tarefa para decoficação de códigos em rajada aleatórios utilizando redes neural, inteligência artificial. Mesmo se obter o máximo a posteriori  para BER em questão da performance com os formatos atuais, os códigos
    podem ser de fácil entendimento  e as redes neurais são capazes de generalizar as palavras códigos nunca vistas antes durante o treinamento desta estrutura. Neste sentido, as redes neurais podem aprender formas de decodificar 
-   os algorítimos ao invés de somente fazer a classificação. 
+   os algorítmos ao invés de somente fazer a classificação. 
    Para esta tarefa, é introduzido o "erro normalizado de verificação métrica" (NVE - método para resolução do problema) com a finalidade de verificar o potencial e também a limitação das redes neurais com respeito a performance
    complexidade da rede.   
    
@@ -55,6 +55,7 @@ Lista de Exercícios #1
    de redes neurais (deep learning) que possam executar essa função de mapeamento dos canais no espectro de frequências. O estudo com sistema MIMO de 64 antenas mostra que a aquisição por somente 4 a 8 antenas pode ser mapeada com 
    eficiência dentre o array de 64, mesmo que este array completo tenha diferentes bandas de frequência. Simulações dos traçados 3D mostram que taxas de transferência de dados consideradas próximas do ideal (comparadas com o limite
    superiro considerado como perfeito). Este estudo mostra que esta solução reduz a sobrecarga de treinamento e feedback em mmWave e sistemas MIMO devido a poderosa capacidade de aprendizagem das redes neurais.   
+   
    e.Posicionamento e localização em ambientes indoor
    Esta tarefa pode ser executada por computador (Position Sensing and Localization - Improving indoor localization using convolutional neural networks on computationally restricted devices) - 
    
@@ -80,5 +81,8 @@ Lista de Exercícios #1
    
    i.Segurança e robustez em redes de comunicação
    Esta tarefa pode ser executada por computador (Security and Robustness - Deep Q-Learning for self-organizing networks fault management and radio performance improvement) - 
-   O objetivo deste estudo é propor um algorítimo utilizando deep learning para automatizar o gerenciamento de falhas em uma rede de telefonia móvel para tentar contornar as deficiências das redes sem fio. O algorítimo permite que o cluster da rede
-   móvel se recupere permitindo que a rede neural aprenda como melhorar o sinal do downlink para altas taxas de interferência de ruído através da exploração de várias ações corretivas.                                                                           
+   O objetivo deste estudo é propor um algorítmo utilizando deep learning para automatizar o gerenciamento de falhas em uma rede de telefonia móvel para tentar contornar as deficiências das redes sem fio. O algorítimo permite que o cluster da rede
+   móvel se recupere permitindo que a rede neural aprenda como melhorar o sinal do downlink para altas taxas de interferência de ruído através da exploração de várias ações corretivas.    
+   Este estudo implementa um algorítimo de rede neural para gerenciamento e tratamento das falhas que as rede auto organizadas podem implementar em tempo de execução polinomial. Este algorítimo mostra que o métod de gerenciamento por redes neurais 
+   pode melhorar o desempenho do link de rádio. Os resultados simulados desta implementação mostram que o algorítmo em machine learn aprende uma sequência de ações capaz de limpar e melhorar o desempenho no cluster da rede móvel com melhor eficiência 
+   se comparado ao desempenho dos algorítmos existentes, mesmo com a ocorrência de falhas aleatórias e com o usuário em movimento (aparelho celular).
