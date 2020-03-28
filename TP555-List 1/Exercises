@@ -35,6 +35,12 @@ Lista de Exercícios #1
    
    b.Mitigação de colisões em redes sem-fio e móveis 
    Esta tarefa pode ser executada por computador (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7458837)
+   A utilização de redes neurais para melhorar o desempenho no controle do tráfego de dados em redes heterogêneas tem-se mostrado uma tarefa de difícil implementação. O desafio principal é a dificuldade está no desafio em se
+   treinar uma rede neural de maneira apropriada com base nos padrões de entrada e saída para tomar decisões acertivas sobre a natureza dinâmica de redes heterogênicas em larga escala.
+   Este estudo propõe o treinamento de uma rede neural para controle de trafego de dado em redes heterogênieas em tres fases: Na primeira fase o objetivo é obter dados relevantes para formação do sistema de aprendizado que pode 
+   ser utilizando a comunicação entre diferentes roteadores registrando os pardrões de tráfego e caminhos ou extrair o tráfego relevante de um conjunto de dados disponíveis.
+   A segunda fase é a fase de treinamento onde a aprendizagem supervisionada e usada para treinar a rede e esperar que ela determine os caminhos (numero de roteadores) para o destino core/backbone.
+   A terceira e ultima fase e a fase de Execução da tarefa, onde os padrões de tráfego e o caminho de dados é definido pelo algorítmo da rede treinada.
    
    c.Projeto e otimização de esquemas de modulação e codificação
    Esta tarefa pode ser executada por computador (Channel Encoding and Decoding - On deep learning-based channel decoding)
