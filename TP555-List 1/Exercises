@@ -58,7 +58,15 @@ Lista de Exercícios #1
    
    e.Posicionamento e localização em ambientes indoor
    Esta tarefa pode ser executada por computador (Position Sensing and Localization - Improving indoor localization using convolutional neural networks on computationally restricted devices) - 
-   
+   A localização em ambientes internos é um dos principais facilitadores para várias áreas de aplicação e de serviço que dependem da localização precisa de pessoas, bens e ativos desde automação industrial e residencial até a automação 
+   dos processos industriais de produção e logistica e também a otimização das redes sem fio. As soluções já existentes hoje são capazes de fornecer vários níveis de precisão que estão diretamente atrelados a complexidade do indoor onde 
+   os sinais de rádio se propagam.
+   Este estudo vem propor métodos para a redução do erro de localização em ambientes indoor semm linha de visada (NLoS) com base em informações da resposta ao impulso de canal bruto (CIR em inglês) que são obtidas por equipamentos de rádio 
+   de banda larga (ultra wide band) e não sendo necessário um conhecimento prévio sobre o ambiente de operação.
+   Esta tarefa é executada com base na classificação dos canais NLoS e na variação dos modelos de regressão de erros usando redes neurais convolucionais (CNN em inglês) e implementados na estrutura computacional TensorFlow. O estudo mostra
+   que a classificação do canal NLoS usando dados brutos do CIR supera as abordagens existentes baseadas nas características dos sinais de entrada. Também é demonstrado que a predição do canal NLoS e as variações das informações de erro que
+   são usadas em combinação com algorítmos de estimativa de localização de mínimos quadrados e ponderados trazem uma melhora significativa no desempenho da tarefa de localização em ambientes indoor para um dispositivo móvel. Como conclusão
+   deste estudo, uma análise do desempenho computacional de máquina foi feito e indica que um processamento distribuído é indicado quando houver restrição de recursos de máquina (processador).   
    f.Roteamento de redes 
    Esta tarefa pode ser executada por computador (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7792369)
    
