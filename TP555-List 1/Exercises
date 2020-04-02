@@ -1,0 +1,107 @@
+Lista de Exercícios #1
+
+1. Exercício 
+   a.Inteligência é a capacidade de um ser vivo e/ou uma máquina de realizar ações de acordo com as informações percebidas do meio em que se    encontram;
+   b.IA é a capacidade de uma máquina pré-programada de realizar ações ou atividades interagindo com o meio em que se encontram;
+   c.Machine Learning é a capacidade de uma máquina pré-programada com rotinas internar de interagir com o meio estar atualizando suas rotinas internas para se adaptar cada vez mais ao ambiente e estímulos do meio em que se encontra;
+
+2. Exercício
+   a.Prever corretamente o tempo em uma data futura.
+
+3. Exercício
+   T= É a tarefa de fazer a previsão do tempo;
+   E= É a experiência ou aprendizado de máquina (algorítimo) cuja base de dados para treinamento são os dados climáticos históricos.
+
+4. Exercício - Aprendizagem Supervisionada
+   Previsão do tempo é uma tarefa de classificação uma vez que os dados de saída, previsão do tempo, estão separados em três categorias distintas: ensolarado, nublado e chuvoso.
+
+5. Exercício - Aprendizagem Supervisionada
+   Prever o preço de uma ação é uma tarefa de Regressão uma vez que o resultado é contínuo e pode ser afetado por vários fatores externos que devem ser considerados no preço da ação como por exemplo variações nas moedas extrangeiras, catástrofes naturais ou não, situação atual e futura da instituição detentora destas ações, entre outros.
+   
+6. Exercício
+   Para o funcionamento de um robô autônomo a implementação de um algorítimo de Aprendizado Por Reforço seria a melhor opção, uma vez que a máquina não é informada do que aprender. Nesta condição o robô deverá aprendender os padrões desconhecidos por tentativa e erro com base na interção com o ambiente, uma vez que este robô deverá ser capaz de se locomover em qualquer tipo de terreno.
+   
+7. Exercício
+   Para segmentar clientes em grupos distintos a implementação de um algorítimo de Aprendizado Não Supervisionado por Clusterização, onde as features de entrada serão utilizadas para segmentar novos clientes para os grupos que já estão pré definidos. Um exemplo de algorítmo que pode ser utilizando seria K-Means, onde com base nos grupos de clientes com perfil definido, pode-se treinar a rede para identificar novos clientes e agrupar conforme cada feature.
+   
+8. Exercício
+   a.Alocação de recursos em redes móveis (e.g., LTE, 5G-NR, etc)
+   Esta tarefa pode ser executada por computador (Resource Allocation - Proactive resource management for LTE in unlicensed spectrum: a deep learning perspective) - 
+   Este é um problema de escasses de espectro de frequência. A abordagem principal é utilizar a banda de frequências não licenciada para alocação de canais de comunicação LTE usando small base stations (SBSs),
+   contudo este sistema deve coexistir com o sitema Wi-Fi já em operação. A solução proposta visa habilitar multiplas SBSs para uma seleção dinâminca de canal de comunicação (carrier aggregation).
+   Para esta tarefa, um modelo não cooperativo de jogo é formulado no qual as SBSs são modelados como agentes iguais para realizar a previsão de uma sequência de ações futuras para alcançar a coexsitencia pacífica entre 
+   os diversos sistemas que operam na mesma banda de frequência não licenciada ao longo do tempo. O algorítmo de aprendizado utilizado tende a alcançar um equilíbrio de Nash na convergência. Os resultados das simulações 
+   deste modelo com dados reais mostram uma maior eficiência que pode chegar até 28% sobre o modelo convencional.   
+   
+   b.Mitigação de colisões em redes sem-fio e móveis 
+   Esta tarefa pode ser executada por computador (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7458837)
+   A utilização de redes neurais para melhorar o desempenho no controle do tráfego de dados em redes heterogêneas tem-se mostrado uma tarefa de difícil implementação. O desafio principal é a dificuldade está no desafio em se
+   treinar uma rede neural de maneira apropriada com base nos padrões de entrada e saída para tomar decisões acertivas sobre a natureza dinâmica de redes heterogênicas em larga escala.
+   Este estudo propõe o treinamento de uma rede neural para controle de trafego de dado em redes heterogênieas em tres fases: Na primeira fase o objetivo é obter dados relevantes para formação do sistema de aprendizado que pode 
+   ser utilizando a comunicação entre diferentes roteadores registrando os pardrões de tráfego e caminhos ou extrair o tráfego relevante de um conjunto de dados disponíveis.
+   A segunda fase é a fase de treinamento onde a aprendizagem supervisionada e usada para treinar a rede e esperar que ela determine os caminhos (numero de roteadores) para o destino core/backbone.
+   A terceira e ultima fase e a fase de Execução da tarefa, onde os padrões de tráfego e o caminho de dados é definido pelo algorítmo da rede treinada.
+   
+   c.Projeto e otimização de esquemas de modulação e codificação
+   Esta tarefa pode ser executada por computador (Channel Encoding and Decoding - On deep learning-based channel decoding)
+   Esta é uma tarefa para decoficação de códigos em rajada aleatórios utilizando redes neural, inteligência artificial. Mesmo se obter o máximo a posteriori  para BER em questão da performance com os formatos atuais, os códigos
+   podem ser de fácil entendimento  e as redes neurais são capazes de generalizar as palavras códigos nunca vistas antes durante o treinamento desta estrutura. Neste sentido, as redes neurais podem aprender formas de decodificar 
+   os algorítmos ao invés de somente fazer a classificação. 
+   Para esta tarefa, é introduzido o "erro normalizado de verificação métrica" (NVE - método para resolução do problema) com a finalidade de verificar o potencial e também a limitação das redes neurais com respeito a performance
+   complexidade da rede.   
+   
+   d.Sensoriamento espectral
+   Esta tarefa pode ser executada por computador (Other Selected Topics - Deep learning for TDD and FDD massive MIMO: Mapping channels in space and frequency) - 
+   Esta é uma tarefa para tentar simplificar o complexo sistema de mapeamento de canais (bandas de frequência) para comunicação móvel, principalmente quando estamos falando de altas taxas de dados, que é o caso dos sistemas que 
+   utilizam as técnica de MIMO.
+   A idéia para esta tarefa é otimizar o mapeamento em espaço e frequência que é feito a cada vez que um dispositivo móvel tenta acessar uma rede e/ou uma rede via outra rede, como no caso do hoaming service onde um móvel irá acessar
+   um conjunto de antenas que por sua vez deverá localizar a rede solicitada acessando um outro conjunto de antenas, ou até mesmo um ajuste de banda e frequência de operação para ajuste das taxas de dados e para estes dois casos 
+   um mapeamento de up e downstream deverão ser feitos.
+   A tarefa é executada, ao passo que o mapeamento de canal para canal é provado e é uma condição desconhencida e muito difícil de se caracterizar analiticamente em sistemas MIMO, consiste na proposta da capacidade de aprendizado
+   de redes neurais (deep learning) que possam executar essa função de mapeamento dos canais no espectro de frequências. O estudo com sistema MIMO de 64 antenas mostra que a aquisição por somente 4 a 8 antenas pode ser mapeada com 
+   eficiência dentre o array de 64, mesmo que este array completo tenha diferentes bandas de frequência. Simulações dos traçados 3D mostram que taxas de transferência de dados consideradas próximas do ideal (comparadas com o limite
+   superiro considerado como perfeito). Este estudo mostra que esta solução reduz a sobrecarga de treinamento e feedback em mmWave e sistemas MIMO devido a poderosa capacidade de aprendizagem das redes neurais.   
+   
+   e.Posicionamento e localização em ambientes indoor
+   Esta tarefa pode ser executada por computador (Position Sensing and Localization - Improving indoor localization using convolutional neural networks on computationally restricted devices) - 
+   A localização em ambientes internos é um dos principais facilitadores para várias áreas de aplicação e de serviço que dependem da localização precisa de pessoas, bens e ativos desde automação industrial e residencial até a automação 
+   dos processos industriais de produção e logistica e também a otimização das redes sem fio. As soluções já existentes hoje são capazes de fornecer vários níveis de precisão que estão diretamente atrelados a complexidade do indoor onde 
+   os sinais de rádio se propagam.
+   Este estudo vem propor métodos para a redução do erro de localização em ambientes indoor semm linha de visada (NLoS) com base em informações da resposta ao impulso de canal bruto (CIR em inglês) que são obtidas por equipamentos de rádio 
+   de banda larga (ultra wide band) e não sendo necessário um conhecimento prévio sobre o ambiente de operação.
+   Esta tarefa é executada com base na classificação dos canais NLoS e na variação dos modelos de regressão de erros usando redes neurais convolucionais (CNN em inglês) e implementados na estrutura computacional TensorFlow. O estudo mostra
+   que a classificação do canal NLoS usando dados brutos do CIR supera as abordagens existentes baseadas nas características dos sinais de entrada. Também é demonstrado que a predição do canal NLoS e as variações das informações de erro que
+   são usadas em combinação com algorítmos de estimativa de localização de mínimos quadrados e ponderados trazem uma melhora significativa no desempenho da tarefa de localização em ambientes indoor para um dispositivo móvel. Como conclusão
+   deste estudo, uma análise do desempenho computacional de máquina foi feito e indica que um processamento distribuído é indicado quando houver restrição de recursos de máquina (processador).   
+   
+   f.Roteamento de redes 
+   Esta tarefa pode ser executada por computador (https://ieeexplore.ieee.org/document/7791218)
+   Os estudos atuais e recentes avançoes nos protocolos de roteamento de redes wireless usando técnicas de machine learning tem ajudado a resolver o problema de gargalo nas conexões de rede, onde inúmeras soluções tem sido apontadas para 
+   tentar minimizar a utilização de recusros nas redes wireless e com isso prolongar sua vida útil.
+   Este estudo apresenta um protocolo de agrupamento baseado na atribuição eficiente de vetores de suporte aos sensores (nós da rede) mais próximos equilibrando desta forma as conexões no agrupamento dos nós de rede.
+   Este modelo foi comparado com o protocolo LEACH (low energy adaptative clustering hierarchy) mostrando uma melhor utilização dos recursos no contexto das redes wireless.   
+   
+   g.Detecção e estimação de canal em sistemas de transmissão ópticos
+   Esta tarefa pode ser executada por computador (Signal Detection, Classification and Compression - Low computationally complex recurrent neural network for high speed optical fiber transmission) - 
+   Com a crescente demanda por maior velocidade de tráfego de dados aumentando consideravelmente nos ultimos anos, os dispositivos VCSEL (Laser de superfície de cavidade vertical) estão evoluindo para operação em 100Gbps, com isso a 
+   intensidade de ruído (relação Signal/Noise ou BER) se torma mais signigicativa e os equalizadores convencionais nao possuem eficiência para garantir a melhor Noise Figure. Outro agravante é que os dados trafegando em fibras ópticas também
+   sofre interferência inter simbólica (ISI) e resposta não linear do canal, o que torna o processo converncional de equalização ainda mais complexo.
+   Algumas aboradagens recentes e anteriores a este estudo já realizaram utilização de redes neurais para realizar a equalização dos sinais ópticos porém desprezando a complexidade computacional envolvida.
+   A idéia para esta tarefa foi projetar uma Rede Neural Recorrente (RNN em inglês) com base no equalizador, onde uma interconexão óptica VCSEL-MMF com modulação PAM-4 foi estabelecida. Uma melhoria no desmpenho da BER em relação aos
+   equalizadores baseando em rede neural artificial (ANN em inglês). Uma variação deste modelo é proposta também, Half-RNN, cuja complexidade de implementação e até 70% menor que a ANN e com performance de BER similar.
+   
+   h.Pré-distorção digital de não-linearidades de front-ends de RF
+   Esta tarefa pode ser executada por computador (Resource Allocation - Transmit Power Control Using Deep Neural Network for Underlay Device-to-Device Communication)
+   Esta é uma tarefa que tem como objetivo criar uma estratégia para controle de potência usando deep neural network (DNN). Esta é um proposta subjacente dispositivo a dispositivo onde o equipamento de usúário ou Base station (BS) compartilha 
+   recursos de rádio com o equipamento celular do usuário ou mobile. Embora o treinamento de uma DNN pode levar algum tempo, este tempo aida é adquado dado que uma DNN treinada pode ser usada com baixo tempo de processamento. 
+   Para este estudo é proposto um modelo de controle de potência de transmissão com base em DNN no qual a eficiência espectal da Base station é melhorada enquanto quanto há limitação da interferência causada. Através de simulações computacionais, 
+   a performance do esquema proposto pode atingir uma alta eficiência espectral da Base Station enquanto há uma regulação da interferência causada para o mobile, e todo este processo exige baixo tempo de processamento computacional comparado com 
+   os esquemas de equalização e pré distorção convencionais.   
+   
+   i.Segurança e robustez em redes de comunicação
+   Esta tarefa pode ser executada por computador (Security and Robustness - Deep Q-Learning for self-organizing networks fault management and radio performance improvement) - 
+   O objetivo deste estudo é propor um algorítmo utilizando deep learning para automatizar o gerenciamento de falhas em uma rede de telefonia móvel para tentar contornar as deficiências das redes sem fio. O algorítimo permite que o cluster da rede
+   móvel se recupere permitindo que a rede neural aprenda como melhorar o sinal do downlink para altas taxas de interferência de ruído através da exploração de várias ações corretivas.    
+   Este estudo implementa um algorítimo de rede neural para gerenciamento e tratamento das falhas que as rede auto organizadas podem implementar em tempo de execução polinomial. Este algorítimo mostra que o métod de gerenciamento por redes neurais 
+   pode melhorar o desempenho do link de rádio. Os resultados simulados desta implementação mostram que o algorítmo em machine learn aprende uma sequência de ações capaz de limpar e melhorar o desempenho no cluster da rede móvel com melhor eficiência 
+   se comparado ao desempenho dos algorítmos existentes, mesmo com a ocorrência de falhas aleatórias e com o usuário em movimento (aparelho celular).
