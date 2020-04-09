@@ -1,8 +1,14 @@
 1 - RESP: Para um conjunto de treinamento com milhares de features, o algorítmo do Gradiente Descendente é utilizado porque além de ser 
-          um algorítimo de fácil implementação, se comparado a solução da equação normal (forma fechada) que tem complexidade computacional.
-          Não há a necessidade da preocupação com matrizes mal condicionadas com determinante próximo de zero. 
-          Este é um algorítmo utilizado em vários problemas de aprendizado de máquina. Dentros das Técnicas do Gradiente Descendente, 
-          especificamente para este caso, utiliza-se o algorítmo do Gradiente Descendente Estocástico.
+          um algorítimo de fácil implementação. Com a utilização do erro médio quadrático, a superfície de erro resulta em uma superfície
+          convexa, com um único mínimo global. Não há a necessidade da preocupação com matrizes mal condicionadas com determinante próximo 
+          de zero. 
+          Dentro das Técnicas do Gradiente Descendente, especificamente para este caso, utiliza-se o algorítmo do Gradiente Descendente 
+          Estocástico que tem a convergência mais rápida porém não garantida (oscila em torno do mínimo). Modificações no passo de aprendizagem
+          podem garantir a convergência.
 
-2 - RESP: 
+2 - RESP: Em um conjunto de treinamento que possua features com escalas muito diferentes, a técnica do Gradiente Descendente Estocático que é
+          uma técnica que é mais sensível a variações do passo de aprendizagem. O SGD tem um caminho direto para o mínimo, porém ele muda várias 
+          vezes ao longo deste caminho. Sendo assim, quando um conjunto de treinamento tem variações de valores bem diferentes, os contornos da 
+          superfície de erro terão formato elíptico, o que dificulta mais ainda a convergência.
+          
 
