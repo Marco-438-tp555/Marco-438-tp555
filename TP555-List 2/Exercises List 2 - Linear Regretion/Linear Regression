@@ -1,2 +1,8 @@
-1 - RESP:
+1 - RESP: Para um conjunto de treinamento com milhares de features, o algorítmo do Gradiente Descendente é utilizado porque além de ser 
+          um algorítimo de fácil implementação, se comparado a solução da equação normal (forma fechada) que tem complexidade computacional.
+          Não há a necessidade da preocupação com matrizes mal condicionadas com determinante próximo de zero. 
+          Este é um algorítmo utilizado em vários problemas de aprendizado de máquina. Dentros das Técnicas do Gradiente Descendente, 
+          especificamente para este caso, utiliza-se o algorítmo do Gradiente Descendente Estocástico.
+
+2 - RESP: 
 
