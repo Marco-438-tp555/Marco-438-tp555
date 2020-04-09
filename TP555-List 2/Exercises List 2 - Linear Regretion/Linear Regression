@@ -10,5 +10,10 @@
           uma técnica que é mais sensível a variações do passo de aprendizagem. O SGD tem um caminho direto para o mínimo, porém ele muda várias 
           vezes ao longo deste caminho. Sendo assim, quando um conjunto de treinamento tem variações de valores bem diferentes, os contornos da 
           superfície de erro terão formato elíptico, o que dificulta mais ainda a convergência.
+          Uma solução para mitigação deste problema é a realização do processo de Escalonamento de Features, que consiste na normalização das 
+          features em um intervalo fixo. Este processo é feito durante o pré processamento dos dados que ajuda a acelerar a convergência do gradiente
+          descendente pois deixa as curvas de nível da superfície de erro circular.
+
+3 - RESP: 
           
 
