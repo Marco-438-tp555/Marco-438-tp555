@@ -14,6 +14,11 @@
           features em um intervalo fixo. Este processo é feito durante o pré processamento dos dados que ajuda a acelerar a convergência do gradiente
           descendente pois deixa as curvas de nível da superfície de erro circular.
 
-3 - RESP: 
+3 - RESP: Se o algorítimo implementado é o Gradiente Descendente Batch, então a cada iteração todos os exemplos de treinamento do modelo são considerados.
+          Neste caso, se o erro medido a cada época está aumentando constantemente então possivelmente o passo de aprendizagem deste algorítimo está muito
+          alto. O que pode ser feito para minimizar o erro é diminuir o passo de aprendizagem até que o algorítmo encontre o caminho ótimo para um mínimo 
+          local onde a convergência seja garantida.
+          
+4 - RESP: 
           
 
