@@ -17,8 +17,17 @@
 3 - RESP: Se o algorítimo implementado é o Gradiente Descendente Batch, então a cada iteração todos os exemplos de treinamento do modelo são considerados.
           Neste caso, se o erro medido a cada época está aumentando constantemente então possivelmente o passo de aprendizagem deste algorítimo está muito
           alto. O que pode ser feito para minimizar o erro é diminuir o passo de aprendizagem até que o algorítmo encontre o caminho ótimo para um mínimo 
-          local onde a convergência seja garantida.
+          global onde a convergência seja garantida.
           
-4 - RESP: 
+4 - RESP: O algorítimo do Gradiente Descendente Estocástico é o que chega mais rápido a vizinhança da solução ótima, ou seja ele converge na média.
+          O algorítimo do Gradiente Descendente Batch é o que realmente converge, desde que o passo de aprendizagem nao seja muito grande, sendo assim a 
+          convergência será mais lenta porém garantida.
+          Para garantir que os algorítimos que tem uma convergência mais rápida para uma média de valores realmente tenham uma convergência mais próxima 
+          do mínimo global, são utilizados esquemas de variação do passo de aprendizagem como por exemplo o Decaimento por etapas ou degraus, o Decaimento
+          Exponencial e o Decaimento Temporal.
+          
+5 - RESP: Código está comitado na pasta "...".
+
+6 - RESP: Código está comitado na pasta "...".
           
 
