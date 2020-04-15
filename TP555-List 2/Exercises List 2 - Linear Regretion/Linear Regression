@@ -27,7 +27,7 @@
           Exponencial e o Decaimento Temporal.
           
 5 - RESP: 
-          a), b) e c). Código do Algorítimo Mini-Batch está comitado na pasta "Exercises List 2 - Linear Regression Codes - Mini_Batch_gradient_descent_with_figures.ipynb".
+          a), b) e c). Código do Algorítimo Mini-Batch está comitado na pasta "Exercises List 2 / Linear Regression Codes / Exercise 5".
           d). O valor ótimo para o passo de aprendizagem neste algorítmo foi 0.4.
           e). Após o ajuste do passo de aprendizagem para minimizar o erro em torno do mínimo global, conclui-se que o algorítmo Mini-Batch diverge muito pouco
               até atingir o mínimo glogal convergindo na média mas muito próximo do ponto ótimo.
@@ -41,7 +41,6 @@
 6 - RESP:
           a) e b). Código do Algorítimo Mini-Batch está comitado na pasta "Exercises List 2 - Linear Regression Codes - ...".
           
-          
-6 - RESP: Código está comitado na pasta "...".
+        
           
 
