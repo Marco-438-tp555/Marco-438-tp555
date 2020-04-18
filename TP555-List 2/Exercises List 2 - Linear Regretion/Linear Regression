@@ -39,8 +39,9 @@
               se comparado com o Estocástico que com o custo de se minimizar o erro tem-se uma convergencia mais demorada para um ponto ótimo.
               
 6 - RESP:
-          a) e b). Código do Algorítimo Mini-Batch está comitado na pasta "Exercises List 2 - Linear Regression Codes - ...".
-          NOTA: 
+          a) e b). Código do Algorítimo Mini-Batch está comitado na pasta "Exercises List 2 / Linear Regression Codes / Exercise 6".
+          NOTA: Analisando o comportamento do algorítmo, sua convergência se da com passo de aprendizagem menor do que 0.007 e o ponto ótimo para o passo de 
+                aprendizagem se da para o valor de 0.005.
 
 7 - RESP:
           a).
