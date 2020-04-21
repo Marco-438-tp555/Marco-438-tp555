@@ -51,7 +51,9 @@
              funções hipótese com polinômios de segundo, terceiro e quarto graus, o erro no final do treinamento é o mesmo. Isso pode ser visualizado aumentando-se o
              número de iterações. Com isso, um polinômio de segundo grau já seria a melhor opção dado a convergência mais rápida com um maior passo de aprendizagem.
           
-          B. 
+          B. Com os parâmetros das funções hipótese otimizados e analisando novamente os gráficos do Erro vs. Iterações, novamente a função hipótese que utiliza o 
+             polinômio de segundo grau apresenta convergência que atende ao critério esperado, apenas um ajuste no passo de aprendizagem foi realizado para corrigir 
+             o pequeno aumento no número de iterações para convergência no ponto ótimo.
         
           
 
