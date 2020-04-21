@@ -51,7 +51,7 @@
              funções hipótese com polinômios de segundo, terceiro e quarto graus, o erro no final do treinamento é o mesmo. Isso pode ser visualizado aumentando-se o
              número de iterações. Com isso, um polinômio de segundo grau já seria a melhor opção dado a convergência mais rápida com um maior passo de aprendizagem.
           
-          
+          B. 
         
           
 
