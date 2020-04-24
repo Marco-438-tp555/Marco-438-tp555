@@ -59,6 +59,11 @@
           Os algorítmos do gradiente descendente em Batelada para as funções de escalonamento de features das letras a), b) e c) estão comitados na pasta 
           "Exercises List 2 / Linear Regression Codes / Exercise 8".
           
-          d). 
+          d). O escalonamento de features é um processo que tem por objetivo equalizar as features, ou seja, ajustar as superfícies de contorno de modo que a covergência para
+              o ponto ótimo seja mais suave e as features tenham o mesmo peso neste processo.
+              Devido a natureza dos dados, em ambos os processos de escalnomento (algorítimos Min-Max e Padronização) utilizam de função Gaussiana tem se uma convergência 
+              mais rápida para o ponto ótimo com relação ao algorítmo sem nenhum processo de escalonamento. 
+              No escalonamento por padronização, a convergência para o ponto ótimo acontece com um número menor de iterações do que no processo de escalonamento Min-Max e pode 
+              ser facilmente entendido pois a superfície de contorno são mais circulares e com isso as features tem quase o mesmo peso no processo de convergência.
           
 
