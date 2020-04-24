@@ -44,7 +44,7 @@
                 aprendizagem se da para o valor de 0.005.
 
 7 - RESP:
-          Os algorítmos do gradiente descendente em Batelada para as funcções hipótese das letras a), b), c) e d) estão comitados na pasta 
+          Os algorítmos do gradiente descendente em Batelada para as funções hipótese das letras a), b), c) e d) estão comitados na pasta 
           "Exercises List 2 / Linear Regression Codes / Exercise 7".
           
           A. Analisando os gráficos do Erro vs. Iterações vs. Erro para os algorítimos do Exercício 7, pode-se chegar a conclusão que tanto para a implementação das 
@@ -56,7 +56,9 @@
              o pequeno aumento no número de iterações para convergência no ponto ótimo.
 
 8 - RESP:
+          Os algorítmos do gradiente descendente em Batelada para as funções de escalonamento de features das letras a), b) e c) estão comitados na pasta 
+          "Exercises List 2 / Linear Regression Codes / Exercise 8".
           
-        
+          d). 
           
 
