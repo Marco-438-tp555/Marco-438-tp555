@@ -1,4 +1,15 @@
 Lista de Exercício 3 - Regressão Polinomial
 
 1- RESP: 
+   Quando um algorítmo de regressão polinomial tem como resultado de um treinamento (curvas de aprendizado) uma grande diferença entre erro
+   de treinamento e o erro de validação é porque o modelo não está generalizando, ou seja, a ordem do polinômio usado pode estar alta e com
+   isso tem-se uma aproximação para os pontos de treinamento e se distanciando cada vez mais da função original, neste caso diz que este 
+   modelo está "sobreajustando", a capaciadade do modelo é tão alta que ele aprende o ruído existente porém nao aprende a função objetivo
+   (bom somente para dados de treinamento).
+   O que pode ser feito para melhorar este cenário é:
+   a). Diminuir a complexidade do modelo;
+   b). Aumentar a base de dados do modelo;
+   c).
+   
+   
    
