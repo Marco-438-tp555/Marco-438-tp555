@@ -12,9 +12,18 @@ Lista de Exercício 3 - Regressão Polinomial
    c). Leave-p-out;
    
 2- RESP:
-   a), b), c), d), e), f), g) h) e i). Código do Algorítimo Lasso e Ridge Regretion está comitado na pasta "TP555-List 3".
+   a), b), c), d), e), f), g) h) e i). Código dos Algorítimos Lasso e Ridge Regretion está comitado na pasta "TP555-List 3".
    
-   j)
+   j)O que pode-se perceber ao se comparar os pesos encontrados com os resultados dos algorítmos é que para uma mesma ordem de polinômio, 
+     neste caso 90, os pesos para o algorítmo de LASSO estão mais próximos de zero e isso resulta em uma aproximação mais regular e o modelo
+     (função Hipótese) fique mais próximo do modelo original se comparado ao algorítmo de RIDGE. Neste mesmo cenário, fazendo uma análise das
+     curvas de Erro vs. Lambda, pode-se verificar também que ao passo do aumento de Lambda, no algorítmo LASSO o erro entre o conjunto de 
+     treinamento e de validação vai diminuido e também ficando mais próximo do modelo original, e no algorítmo de RIDGE, o erro entre o conjunto
+     de treinamento e validação é constante e nao há convergência para o modelo real com o aumento de Lambda.
+     Se o valor da ordem do polinômio gerador for reduzida para 10, os resultados dos pesos do algorítmo de RIDGE ficam mais próximos de zero, o 
+     erro entre o conjunto de treinamento e validação aumenta, porém há uma convergência da função hipótese para o modelo original.
+
+   
    
    
    
