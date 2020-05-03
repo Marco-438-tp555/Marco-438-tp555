@@ -24,7 +24,10 @@ Lista de Exercício 3 - Regressão Polinomial
      erro entre o conjunto de treinamento e validação aumenta, porém há uma convergência da função hipótese para o modelo original.
 
 3- RESP:
-   a), b), c), d), e), f) e g). Código dos Algorítimos Early Stopping está comitado na pasta "TP555-List 3 - Exercise_3_EARLY_Stopping".
+   a), b), c), d), e), f) e g). Código do Algorítimo Early Stopping está comitado na pasta "TP555-List 3 - Exercise_3_EARLY_Stopping".
+
+4- RESP:
+   a), b), c), d) e e). Código do Algorítimo Validção Cruzada está comitado na pasta "TP555-List 3 - Exercise_4_XXXX".
    
    
    
