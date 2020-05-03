@@ -12,7 +12,7 @@ Lista de Exercício 3 - Regressão Polinomial
    c). Leave-p-out;
    
 2- RESP:
-   a), b), c), d), e), f), g) h) e i). Código dos Algorítimos Lasso e Ridge Regretion está comitado na pasta "TP555-List 3".
+   a), b), c), d), e), f), g) h) e i). Código dos Algorítimos Lasso e Ridge Regretion está comitado na pasta "TP555-List 3 - Exercise_2_RIDGE_LASSO_Comparison".
    
    j)O que pode-se perceber ao se comparar os pesos encontrados com os resultados dos algorítmos é que para uma mesma ordem de polinômio, 
      neste caso 90, os pesos para o algorítmo de LASSO estão mais próximos de zero e isso resulta em uma aproximação mais regular e o modelo
@@ -23,6 +23,8 @@ Lista de Exercício 3 - Regressão Polinomial
      Se o valor da ordem do polinômio gerador for reduzida para 10, os resultados dos pesos do algorítmo de RIDGE ficam mais próximos de zero, o 
      erro entre o conjunto de treinamento e validação aumenta, porém há uma convergência da função hipótese para o modelo original.
 
+3- RESP:
+   a), b), c), d), e), f) e g). Código dos Algorítimos Early Stopping está comitado na pasta "TP555-List 3 - Exercise_3_EARLY_Stopping".
    
    
    
