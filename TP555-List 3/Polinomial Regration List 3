@@ -12,7 +12,7 @@ Lista de Exercício 3 - Regressão Polinomial
    c). Leave-p-out;
    
 2- RESP:
-   a), b), c), d), e), f), g) h) e i). Código dos Algorítimos Lasso e Ridge Regretion está comitado na pasta "TP555-List 3 - Exercise_2_RIDGE_LASSO_Comparison".
+   a), b), c), d), e), f), g) h) e i). Código dos Algorítimos Lasso e Ridge Regretion está comitado na pasta "TP555-List 3 - Exercise_2_RIDGE_LASSO_Comparison.ipynb".
    
    j)O que pode-se perceber ao se comparar os pesos encontrados com os resultados dos algorítmos é que para uma mesma ordem de polinômio, 
      neste caso 90, os pesos para o algorítmo de LASSO estão mais próximos de zero e isso resulta em uma aproximação mais regular e o modelo
@@ -24,10 +24,13 @@ Lista de Exercício 3 - Regressão Polinomial
      erro entre o conjunto de treinamento e validação aumenta, porém há uma convergência da função hipótese para o modelo original.
 
 3- RESP:
-   a), b), c), d), e), f) e g). Código do Algorítimo Early Stopping está comitado na pasta "TP555-List 3 - Exercise_3_EARLY_Stopping".
+   a), b), c), d), e), f) e g). Código do Algorítimo Early Stopping está comitado na pasta "TP555-List 3 - Exercise_3_EARLY_Stopping.ipynb".
 
 4- RESP:
-   a), b), c), d) e e). Código do Algorítimo Validção Cruzada está comitado na pasta "TP555-List 3 - Exercise_4_XXXX".
+   a), b), c), d) e e). Código do Algorítimo Validção Cruzada está comitado na pasta "TP555-List 3 - Exercise_4_Cross_Validation_COVID_19.ipynb".
+   
+5- RESP:
+   a), b), c) e d). Código do Algorítimo Validção Cruzada está comitado na pasta "TP555-List 3 - Exercise_5_XXX.ipynb".
    
    
    
