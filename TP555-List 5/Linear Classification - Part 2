@@ -1,1 +1,14 @@
-
+Exercise 1
+RESP: As funções OR e AND podem ser separadas com um classificador Linear (reta) pois os níveis lógicos se encontram em posições
+      distintas no gráfico e não há necessidade de maior flexibilidade do modelo do classificador.
+      No caso da função XOR não há possiblilidade de separação com classificador linear. Para esta finaliade a separação deverá 
+      ser feita utilizando técnicas de classificação por Regressão Logística.
+      
+Exercise 2
+RESP: Dado umm problema de classificção com múltiplas classes (Q>2), na abordagem UM-CONTRA-TODOS treina-se um classificador 
+      de regressão logística (um classificador binário) para cada classe q para predizer a probabilidade de y = q, em outras palavras,
+      cria-se Q classificadores binários onde a classe positiva C2 = q e a classe negativa C1 é a junção de todas as outras Q - 1 
+      classes. 
+      
+Exercise 3
+RESP: 
