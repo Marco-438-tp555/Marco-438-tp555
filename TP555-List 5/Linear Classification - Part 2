@@ -11,4 +11,17 @@ RESP: Dado umm problema de classificção com múltiplas classes (Q>2), na abord
       classes. 
       
 Exercise 3
+RESP: Previsão se um tumor é maligno (y=1) ou benigno (y=0) com base nos atributos x, onde o classificador de regressão logística gera:
+      ha(x) = P(y=1 | x;a) = 0.7, ou seja há 70% de chances do tumor ser malígno.
+      De acordo com as propriedades da regressão logística, os valores de saída para a função hipótese ha(x) estão entre 0 e 1. Sendo ha(x)
+      a probabilidade do vetor de atributos x pertencer a classe C2 (positiva onde y=1), ha(x) = P(C2 | x;a).
+      Consequentemente, a probabilidade do vetor de atributos x pertencer a classe C1 (negativa onde y=0), assim a probabilidade de o tumor 
+      ser benígno pod ser escrita:
+      
+      P(C1 | x;a) = 1 - ha(x); então, P(C1 | x;a) = 1 - 0.7 = 0.3 ou 30%.
+    
+Exercise 4
+RESP: 
+
+Exercise 5
 RESP: 
