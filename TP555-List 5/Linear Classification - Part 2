@@ -24,4 +24,8 @@ Exercise 4
 RESP: 
 
 Exercise 5
-RESP: 
+RESP: No caso da classificação de fotos externas/internas e diurnas/noturnas, a implementação de dois classificadores de Regressão Logistica
+      é melhor opção se comparado com Softmax pois este prevê uma classe de cada vez. Isto quer dizer que o classificador Softmax é multiclasse,
+      não multi-saída. 
+      O classificador Softmax é muito bem aplicado para para classes mutuamente exclusivas: classificar categorias de notícias, dígitos e diferentes
+      tipos de plantas. Neste caso, o classificador Softmax não será bem empregado para classificação de fotos.
