@@ -19,9 +19,6 @@ RESP: Previsão se um tumor é maligno (y=1) ou benigno (y=0) com base nos atrib
       ser benígno pod ser escrita:
       
       P(C1 | x;a) = 1 - ha(x); então, P(C1 | x;a) = 1 - 0.7 = 0.3 ou 30%.
-    
-Exercise 4
-RESP: 
 
 Exercise 5
 RESP: No caso da classificação de fotos externas/internas e diurnas/noturnas, a implementação de dois classificadores de Regressão Logistica
