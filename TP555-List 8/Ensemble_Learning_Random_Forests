@@ -1,3 +1,19 @@
-Exercise 1
+Exercise 1.
+RESP: Exsiste a possibilidade de se obter melhores resultados combinando estes 5 modelos através da técnica do Conjunto de Treinamento
+      (Ensemble Learning), onde se faz a utilização do algorítmo do Método dos Conjuntos (Ensemble Method). Esta técnica tem como base 
+      o uso de um grupo de preditores que traz maior precisão nos resultados do que um preditor somente.
+      Um exemplo desta técnica para criação de um preditor com maior desempenho, o classificador de votação (Voting Classifier), onde 
+      se agrega as previsões de cada classificador para prever uma classe com maior número de votos.
+
+Exerise 2.
+RESP: Classificador de Votação Rígida: Este tem por base agregar as previsões de cada classificador e como resultado a classe a ser 
+      prevista será a quer tiver o maior número de votos.
+      Classificador de Votação Suave: Este realiza a votação baseando-se nas probabilidades individuais de cada classificador, partindo
+      do pressuposto de que este possa fazer uso do método predict_proba(), e assim o Scikit-Learn possa prever a classe com a maior 
+      probabilidade quando comparada a média das probabilidades de todos os classificadores de forma individual.
+      
+Exerise 3.
 RESP:
      
+     
+   
