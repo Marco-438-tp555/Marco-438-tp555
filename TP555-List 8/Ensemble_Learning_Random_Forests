@@ -18,4 +18,9 @@ RESP: Ambos os preditores Bagging e Pasting podem ser treinados em paralelo, atr
       por vários preditores porém apenas Bagging permite que as instâncias serjam amostradas várias vezes pelo mesmo preditor.
      
 Exerise 4.
+RESP: O benefício da utilização da avaliação Out-of-Bag pode realizar uma estimativa de erro utilizando apenas o conjunto de treinamento 
+      sem a necessidade de um conjunto e validação ou teste separadamente.
+
+Exerise 5.
 RESP:
+
