@@ -13,7 +13,9 @@ RESP: Classificador de Votação Rígida: Este tem por base agregar as previsõe
       probabilidade quando comparada a média das probabilidades de todos os classificadores de forma individual.
       
 Exerise 3.
+RESP: Ambos os preditores Bagging e Pasting podem ser treinados em paralelo, através de diferentes núcleos de CPU ou servidores. 
+      Uma observação importante é que Bagging e Pasting permitem que as instâncias de treinamento sejam amostradas várias vezes 
+      por vários preditores porém apenas Bagging permite que as instâncias serjam amostradas várias vezes pelo mesmo preditor.
+     
+Exerise 4.
 RESP:
-     
-     
-   
