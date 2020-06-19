@@ -22,5 +22,10 @@ RESP: O benefício da utilização da avaliação Out-of-Bag pode realizar uma e
       sem a necessidade de um conjunto e validação ou teste separadamente.
 
 Exerise 5.
-RESP:
+RESP: O que torna as árvores-extras mais aleatórias do que as florestas aleatórias comuns é a utilização de limites aleatórios para cada 
+      feature ao invés de fazer uma busca por melhores limites possíveis. Com esta aleatoriedade, há uma relação de troca entre maior bias 
+      e menor variância nos dados, isso torna Extra-Trees muito mais rápido de treinar do que as florestas aleatórias comuns, já que encontrar
+      o melhor limite possível para cada feature em cada nó é uma das tarefas mais demoradas para o crescimento de uma árvore.
+
+
 
