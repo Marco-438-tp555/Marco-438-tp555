@@ -12,3 +12,22 @@ RESP:
 
 Exercise 5
 RESP:
+     As variáveis são inicializadas quando se abre uma sessão, que é responsável por colocar as operações em CPUs e/ou GPUs, executá-las, e manter os valores das variáveis.
+     As variáveis são destruídas quando se finaliza a sessão, com o comando sess.close(), o que libera recursos da máquina utilizada. 
+     Uma variável inicia sua vida útil quando o inicializador é executado e termina quando a sessão é encerrada.
+     
+Exercise 6
+RESP:
+     Um nó do tipo placeholder transfere os dados definidos em tempo de execução para o grafo sendo executado. 
+     Ele é usado para passar os dados de treinamento para o TensorFlow durante o treinamento.
+     Já o nó do tipo variável não fornece a possibilidade de transferência de dados em tempo de execução. 
+     Todos os valores de um nó são eliminados entre as execuções do grafo, exceto os valores de variáveis, os quais são mantidos pela sessão entre as execuções do grafo.
+Exercise 7
+RESP:
+     Se não for especificado um valor em tempo de execução para um nó placeholder, você receberá uma exceção.
+     Não entendi a segunda pergunta. A execução do grafo aconteceria normalmente.
+
+Exercise 8
+RESP:
+     Utilizando nós conhecidos como placeholders e passar um feed_dict para o método eval() que especifica o valor do nó. 
+     Ou ainda, utilizar o método Assign para atribuição de variável.
