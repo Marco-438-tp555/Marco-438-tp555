@@ -1,0 +1,14 @@
+Exercise 1
+RESP:
+    As vantagens são clareza e melhor entendimento do que foi desenvolvido, permitindo que outra pessoa tenha um rápido entendimento do projeto. 
+    A possibilidade de dividir o grafo e executá-los em paralelo utilizando várias CPUs ou GPUs. Já é uma solução pronta para produção.
+    Desvantagens: 
+    Por ser de estrutura única pode ser difícil encontrar erros e debugar. Necessita de amplo conhecimento em machine learning. 
+Exercise 4
+RESP:
+     Sim é possível, no código de exercício 3 são utilizados dois grafos na mesma sessão.
+     No single-process TensorFlow, várias sessões não compartilham nenhum estado, mesmo que reutilizem o mesmo grafo (cada sessão teria sua própria cópia de cada variável). 
+     No TensorFlow distribuído, o estado variável é armazenado nos servidores, não nas sessões, portanto, várias sessões podem compartilhar as mesmas variáveis.
+
+Exercise 5
+RESP:
