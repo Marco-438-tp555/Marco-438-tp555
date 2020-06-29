@@ -30,10 +30,12 @@ RESP:
      
 Exercise 7
 RESP:
-     Se não for especificado um valor em tempo de execução para um nó placeholder, você receberá uma exceção.
-     Não entendi a segunda pergunta. A execução do grafo aconteceria normalmente.
-
+     Quando nenhum valor em é fornecido para o placeholder, em tempo de execução, uma exceção será recebida. Quando a operação nao depende do placeholder, a execução do
+     grafo ocorre normalmente.
+     
 Exercise 8
 RESP:
-     Utilizando nós conhecidos como placeholders e passar um feed_dict para o método eval() que especifica o valor do nó. 
-     Ou ainda, utilizar o método Assign para atribuição de variável.
+     Durante a fase de execução, a utilização dos placeholders possiblita a definição do valor de uma variável. Isso pode ser feito através das formas abaixo:
+     * Passando um feed_dict para o método eval(), especificando o valor do nó em questão;
+     * Utilizando o método Assign e assim fazer a atribuição de uma variável.
+     
