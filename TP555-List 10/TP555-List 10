@@ -16,16 +16,18 @@ RESP:
 
 Exercise 5
 RESP:
-     As variáveis são inicializadas quando se abre uma sessão, que é responsável por colocar as operações em CPUs e/ou GPUs, executá-las, e manter os valores das variáveis.
-     As variáveis são destruídas quando se finaliza a sessão, com o comando sess.close(), o que libera recursos da máquina utilizada. 
-     Uma variável inicia sua vida útil quando o inicializador é executado e termina quando a sessão é encerrada.
+     Uma variável é inicalizada quando se abre uma sessão, e a partir deste ponto as operações nas CPUs e GPUs são executadas, mantendo os valores das variáveis.
+     Uma variável é destruídas quando se finaliza uma sessão, que é feito através do comando sess.close(). Após esta etapa, os recursos da máquina utilizada são liberados. 
+     A vida útil de uma variável começa com a execução do inicializador e tem seu fim com o encerramento da sessão.
      
 Exercise 6
 RESP:
-     Um nó do tipo placeholder transfere os dados definidos em tempo de execução para o grafo sendo executado. 
-     Ele é usado para passar os dados de treinamento para o TensorFlow durante o treinamento.
-     Já o nó do tipo variável não fornece a possibilidade de transferência de dados em tempo de execução. 
-     Todos os valores de um nó são eliminados entre as execuções do grafo, exceto os valores de variáveis, os quais são mantidos pela sessão entre as execuções do grafo.
+     Nó tipo Placeholder => Realiza a transferência dos dados definidos em tempo de máquina (execução), ou seja, enquanto o grafo está sendo executado. 
+     Durante o treinamento, os dados são transferidos para o Tensorflow.
+     
+     Nó tipo Variável => Não realiza transferência dos dados em tempo de execução. Os valores das variáveis são mantidos pela sessão, enquanto a execução do grafo ocorre 
+     normalmente, porém todos os valores do nó são eliminados durante a execução do grafo.
+     
 Exercise 7
 RESP:
      Se não for especificado um valor em tempo de execução para um nó placeholder, você receberá uma exceção.
