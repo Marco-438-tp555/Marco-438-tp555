@@ -1,0 +1,43 @@
+
+Exercise 1.
+RESP:
+     A substituição da função step pela função logística (ou sigmoide) foi uma alteração fundamental na arquitetura do perceptron. Devido a função step
+     possuir apenas segmentos planos, não há gradiente com que se trabalhar. No caso da implementação da função logística, esta possui derivada diferente 
+     de zero e bem definida em todos os pontos permitindo que o algoritmo do gradiente descendente faça progresso a cada passo.
+     
+Exercise 3.
+RESP:
+     a). A dimensão da matriz é [10,1];
+         
+     b). A dimensão de Wh é [50,10] e a dimensão de bh é [50,1];
+         
+     c). A dimensão de Wo é [3,50] e a dimensão de bo é de [3,1];
+              
+     d). A dimensão da matriz Y é [3,1];    
+     
+     e). Z = Wh.X + bh
+         Y = Wo.Z + bo
+         
+         Então: Y = Wo(Wh.X + bh) + bo
+
+Exercise 4.
+RESP:     
+     Para uma rede MLP classificar emails em spam ou ham, precisaria de dois neurônios na camada de saída. Como se trata de uma tarefa de classificação, deve ser utilizado 
+     a função de ativação Softmax para a saída. 
+        
+     Para classificar a base de dados MNIST que classifica dígitos de 0 a 9, precisaria de dez neurônios na camada de saída. Como se trata de uma tarefa de classificação, 
+     deve ser utilizado a função de ativação Softmax para a saída.
+
+Exercise 5.
+RESP: 
+     - Topologia da rede neural;
+    - Número de camadas;
+    - Número de neurônios por camadas;
+    - Tipo de função de ativação para cada camada;
+    - Lógica de inicialização dos pesos;
+    - Momento;
+    - Número de épocas;
+    - Tamanho do batch.
+    
+    Para tentar resolver o problema de sobreajuste, poderia começar diminuindo o número de neurônios por camada. Uma abordagem mais simples é escolher um modelo com mais camadas 
+    e neurônios do que se realmente precisa e,     em seguida, usar early stopping para se evitar que a rede sobreajuste.
