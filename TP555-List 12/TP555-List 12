@@ -22,11 +22,11 @@ RESP:
 
 Exercise 4.
 RESP:     
-     Para uma rede MLP classificar emails em spam ou ham, precisaria de dois neurônios na camada de saída. Como se trata de uma tarefa de classificação, deve ser utilizado 
-     a função de ativação Softmax para a saída. 
-        
-     Para classificar a base de dados MNIST que classifica dígitos de 0 a 9, precisaria de dez neurônios na camada de saída. Como se trata de uma tarefa de classificação, 
-     deve ser utilizado a função de ativação Softmax para a saída.
+     1. No caso de uma classificação de emails em SPAM ou HAM por parte de uma rede MPL, serão necessários dois neurônios na camada de saída, sendo assim a função SOFTMAX 
+     na camada de saída deverá ser ativada para a execução das tarefas de classificação.
+     
+     2. No caso da classificação da base de dados MNIST (classificação de dígitos de 0 até 9), serão necessários 10 neurônios na camada de saída. Neste caso a função SOFTMAX 
+     também deverá ser ativada para a execução das tarefas de classificação.
 
 Exercise 5.
 RESP: 
