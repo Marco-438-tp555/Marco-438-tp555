@@ -41,5 +41,6 @@ RESP:
      9. Número de neurônios por camadas.
      
      Uma abordagem que poderá ser utlizada no caso de um sobreajuste de uma rede MPL seria adotar a escolha de um modelo de rede com mais camadas e maior número de neurônios
-     do que o necessário e conseguentemente utilizar a função early stopping para que o sobreajuste da rede não ocorra novamente.
+     do que o necessário e conseguentemente utilizar a função early stopping para que o sobreajuste da rede não ocorra novamente. Em geral, obtem-se mais retorno aumentando
+     o número de camadas do que o número de neurônios por camada.
      Uma abordagem mais simples também poderá ser utlizada neste contexto, que seria a diminuição do número de neurônios por camada.
