@@ -30,14 +30,16 @@ RESP:
 
 Exercise 5.
 RESP: 
-     - Topologia da rede neural;
-    - Número de camadas;
-    - Número de neurônios por camadas;
-    - Tipo de função de ativação para cada camada;
-    - Lógica de inicialização dos pesos;
-    - Momento;
-    - Número de épocas;
-    - Tamanho do batch.
-    
-    Para tentar resolver o problema de sobreajuste, poderia começar diminuindo o número de neurônios por camada. Uma abordagem mais simples é escolher um modelo com mais camadas 
-    e neurônios do que se realmente precisa e,     em seguida, usar early stopping para se evitar que a rede sobreajuste.
+     Os hiperparâmetros ajustáveis de uma rede MLP são:
+     1. Tamanho do batch;
+     2. Momento;
+     3. Tipo de função de ativação para cada camada;
+     4. Número de camadas;
+     6. Número de épocas;
+     7. Lógica de inicialização dos pesos;
+     8. Topologia da rede neural;
+     9. Número de neurônios por camadas.
+     
+     Uma abordagem que poderá ser utlizada no caso de um sobreajuste de uma rede MPL seria adotar a escolha de um modelo de rede com mais camadas e maior número de neurônios
+     do que o necessário e conseguentemente utilizar a função early stopping para que o sobreajuste da rede não ocorra novamente.
+     Uma abordagem mais simples também poderá ser utlizada neste contexto, que seria a diminuição do número de neurônios por camada.
